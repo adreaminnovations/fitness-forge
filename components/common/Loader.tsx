@@ -1,4 +1,5 @@
 import React from 'react';
+import gymInterior from '../icons/gym_interior.jpg';
 
 const About: React.FC = () => {
     return (
@@ -16,9 +17,10 @@ const About: React.FC = () => {
                             We believe that fitness is a journey, not a destination. Whether you're a seasoned athlete or just starting out, our facility and staff are here to guide you every step of the way.
                         </p>
                     </div>
+
                     <div className="h-80 md:h-96 bg-slate-700 rounded-2xl border border-slate-600 overflow-hidden">
                         <img
-                            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fmodern-gym-interior&psig=AOvVaw2i7aNHsl-4AXDvQQsvkvZI&ust=1763286117081000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiYg-fu85ADFQAAAAAdAAAAABAE"
+                            src={gymInterior}
                             alt="Gym interior"
                             className="w-full h-full object-cover"
                         />
